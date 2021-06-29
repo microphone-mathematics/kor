@@ -20,7 +20,7 @@ go get github.com/microphone-mathematics/kor
 ## Usage
 To run this script use the following command:
 ```
-echo "https://www.**********.***/event_register.php?event=177" | kxss
+echo "https://www.**********.***/event_register.php?event=177" | kor
 ```
 
 ## Question
