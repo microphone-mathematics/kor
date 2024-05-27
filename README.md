@@ -18,9 +18,20 @@ go get github.com/microphone-mathematics/kor
 ```
 
 ## Usage
+### Basic usage
 To run this script use the following command:
 ```
 echo "https://www.**********.***/event_register.php?event=177" | kor
+```
+
+### Custom Headers
+```
+echo "https://www.**********.***/event_register.php?event=177" | kor -header 'Cookie: JSESSIONID=xxxxxxxxxxxxxxx' -header 'Authorization: Bearer aaaaaaaaaaaaaaaaaa'
+```
+
+### Custom Proxy
+```
+echo "https://www.**********.***/event_register.php?event=177" | kor -proxy 'http://127.0.0.1:8080'
 ```
 
 ## Question
