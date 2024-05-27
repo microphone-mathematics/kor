@@ -37,4 +37,4 @@ echo "https://www.**********.***/event_register.php?event=177" | kor -proxy 'htt
 ```
 
 ## Question
-If you have an question you can create an Issue or ping me on [![alt text][1.1]][1]
+If you have an question you can create an Issue or ping me on [twitter](https://twitter.com/0xquas)
