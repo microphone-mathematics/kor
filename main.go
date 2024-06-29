@@ -109,6 +109,8 @@ func main() {
 			"http:/quas.sh",
 			"https://quas.sh/",
 			"https:/quas.sh",
+			"//quas.sh/",
+			fmt.Sprintf("//%s.quas.sh/", hostname),
 			fmt.Sprintf("http://%s.quas.sh/", hostname),
 			fmt.Sprintf("https://%s.quas.sh/", hostname),
 			fmt.Sprintf("http://%s@quas.sh/", hostname),
